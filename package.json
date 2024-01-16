@@ -1,0 +1,19 @@
+{
+    "name": "api-spec",
+    "version": "1.0.0",
+    "description": "api-spec to ts",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "test": "npm run test"
+    },
+    "author": "oh hyun keun",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.5",
+        "openapi-typescript-codegen": "^0.27.0",
+        "quicktype": "^23.0.81",
+        "typescript": "^5.3.3"
+    }
+}
